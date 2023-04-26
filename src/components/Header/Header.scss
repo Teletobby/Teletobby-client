@@ -1,0 +1,115 @@
+header {
+  width: 100vw;
+  height: 40vh;
+  .top-bar {
+    position: absolute;
+    width: 100vw;
+    height: 6vh;
+    left: 0px;
+    top: 0px;
+    background: #76a4ea;
+    p {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1vh;
+      color: #424040;
+    }
+  }
+  .hr-solid1 {
+    display: flex;
+    justify-content: center;
+    width: 88.5vw;
+    margin-left: 90px;
+    margin-top: 80px;
+    border-top: 2.5px solid #000000;
+  }
+  .header-inner {
+    width: 100vw;
+    height: 40vh;
+    img {
+      position: absolute;
+      left: 60px;
+      top: 83px;
+      width: 95px;
+      height: 102px;
+    }
+    .main-title {
+      position: absolute;
+      width: 17vw;
+      height: 31px;
+      left: 190px;
+      top: 17vh;
+      font-size: 25px;
+      font-weight: 450;
+      line-height: 33px;
+      color: #000000;
+    }
+    .main-category {
+      font-weight: 500;
+      font-size: 20px;
+      .purchase {
+        position: absolute;
+        left: 36vw;
+        top: 14.5vh;
+        display: inline-block;
+        width: 200px;
+        color: #424040;
+      }
+      .rental {
+        position: absolute;
+        left: 43vw;
+        top: 14.5vh;
+        display: inline-block;
+        width: 200px;
+        color: #424040;
+      }
+      .group-buying {
+        position: absolute;
+        left: 50vw;
+        top: 14.5vh;
+        display: inline-block;
+        width: 200px;
+        color: #424040;
+      }
+    }
+    .main-function {
+      font-weight: 400;
+      font-size: 20px;
+      color: #424040;
+      .mypage {
+        position: absolute;
+        left: 65vw;
+        top: 14.5vh;
+        display: inline-block;
+        width: 200px;
+        color: #424040;
+      }
+      .signin {
+        position: absolute;
+        left: 74vw;
+        top: 14.5vh;
+        display: inline-block;
+        width: 200px;
+        color: #424040;
+      }
+      .signup {
+        position: absolute;
+        left: 83vw;
+        top: 14.5vh;
+        display: inline-block;
+        width: 200px;
+        color: #424040;
+      }
+    }
+  }
+  .hr-solid2 {
+    display: flex;
+    justify-content: center;
+    width: 88.5vw;
+    margin-left: 90px;
+    margin-top: -180px;
+    border-top: 2.5px solid #000000;
+  }
+}
